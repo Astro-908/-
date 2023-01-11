@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"content="width-device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"><!-- 界面设定，页面大小屏幕等宽，初始缩放比例，允许缩放最小、最大比例，是否可以缩放 -->
+	<title>七猫阅读大数据智能分析平台</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<header id="header">
+	<div class="center">
+		<h1 class="logo">七猫阅读大数据智能分析平台</h1>
+		<nav class="link">
+		<h2 class="none">网站导航</h2><!-- 完善大纲，隐藏标题 -->
+		<ul >
+			<li><a href="index.html">首页</a></li>
+			<li><a href="book.html"><span class="xs-hidden">图书</span>热榜</a></li>
+			<li class="active"><a href="author.html">作者<span class="xs-hidden">热榜</span></a></li>
+			<li ><a href="about.html"><span class="xs-hidden">关于</span>平台</a></li>
+		</ul>
+		</nav>
+	 </div>
+</header>
+<div id="headline">
+	<img src="img/headline.jpg" alt="">
+	<hgroup>
+		<h2>作者热榜</h2>
+		<h3>根据相关作品和类型查找作者</h3>
+	</hgroup>
+</div>
+<div id="container">
+	<aside class="sidebar">
+		<div class="sidebox recommend">
+			<h2>分类推荐</h2>
+			<div class="tag">
+				<a href="###">现代言情</a>
+				<a href="###">古代言情</a>
+				<a href="###">幻想言情</a>
+				<a href="###">历史</a>
+				<a href="###">军事</a>
+				<a href="###">科幻</a>
+				<a href="###">游戏</a>
+				<a href="###">游戏竞技</a>
+				<a href="###">玄幻奇幻</a>
+				<a href="###">都市人生</a>
+				<a href="###">奇闻异事</a>
+				<a href="###">武侠仙剑</a>
+				<a href="###">体育</a>
+				<a href="###">N次元</a>
+				<a href="###">文学艺术</a>
+				<a href="###">人文社科</a>
+				<a href="###">经管励志</a>
+				<a href="###">经典文学</a>
+				<a href="###">出版小说</a>
+				<a href="###">少儿教育</a>
+				<a href="###">衍生言情</a>
+			</div>
+		</div>
+		<div class="sidebox hot">
+			<h2>热门图书</h2>
+			<div class="figure">
+				<figure>
+					<img src="img/hot1.jpg" alt="离婚后她惊艳了世界">
+					<figcaption>离婚后她惊艳了世界</figcaption>
+				</figure>
+				<figure>
+					<img src="img/hot2.jpg" alt="盖世神医">
+					<figcaption>盖世神医</figcaption>
+				</figure>
+				
+			</div>
+		</div>
+		
+	</aside>
+    <div class="list ticket">
+        <form action="###">
+        	<h2>热门作者</h2>
+            <fieldset class="type">
+            	<p>作者类型<mark>已认证</mark>未认证</p>
+            </fieldset>
+            <fieldset class="form left">
+            	<p>
+                	<label for="form_city">作品名称</label>
+                    <input type="text" name="form_city" id="form_city " placeholder="作品名称">
+                </p>
+                <p>
+                	<label for="to_city">作品类型</label>
+                    <input type="text" name="to_city" id="to_city " placeholder="作品类型">
+                </p>
+            </fieldset>
+            <fieldset class="form right">
+            	<p>
+                	<label for="form_data">发布时间</label>
+                    <input type="text" name="form_data" id="form_data " placeholder="时间/日期">
+                </p>
+                <p>
+                	<label for="form_data">更新时间</label>
+                    <input type="text" name="to_data" id="to_data " placeholder="时间/日期">
+                </p>
+             </fieldset>
+             <fieldset class="form button">
+                <p>
+                	<button type="submit" class="submit">搜索</button>
+                </p>
+            </fieldset>
+        </form>
+        <div class="new">
+        	<h2>最新搜索</h2>
+        	<ul>
+            	<li>热门分类：</li>
+                <li>科幻</li>
+                <li>都市人生</li>
+                <li>现代言情</li>
+                <li>古代言情</li>
+                <li>体育</li>
+                <li>文学艺术</li>
+                <li>经典文学</li>
+                <li>出版小说</li>
+            </ul>
+            <table>
+            	<thead>
+                	<tr>
+                    	<th>作者</th>
+                        <th>认证等级</th>
+                        <th>累计文字</th>
+                        <th class="xs-hidden">作品数</th>
+                        <th class="xs-hidden">创作天数</th>
+                        <th>最近更新</th>
+                        <th>关注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                	<tr>
+                    	<td>梵鸢</td>
+                        <td>一星</td>
+                        <td class="price">40.71万</td>
+                        <td class="xs-hidden">1</td>
+                        <td class="xs-hidden">79天</td>
+                        <td>2023-01-08</td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                	<tr>
+                    	<td>程素素</td>
+                        <td>四星</td>
+                        <td class="price">605.05万</td>
+                        <td class="xs-hidden">4</td>
+                        <td class="xs-hidden">1361天</td>
+                        <td>2023-01-05</td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                	<tr>
+                    	<td>静夜寄思</td>
+                        <td>一星</td>
+                        <td class="price">111.86万</td>
+                        <td class="xs-hidden">1</td>
+                        <td class="xs-hidden">254天</td>
+                        <td>2023-01-08</td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                    <tr>
+                    	<td>默妍</td>
+                        <td>五星</td>
+                        <td class="price">482.5万</td>
+                        <td class="xs-hidden">1</td>
+                        <td class="xs-hidden">1076天</td>
+                        <td>2023-01-08</td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                    <tr>
+                    	<td>这里是盒子</td>
+                        <td>三星</td>
+                        <td class="price">348.69万</td>
+                        <td class="xs-hidden">2</td>
+                        <td class="xs-hidden">816天</td>
+                        <td>2022-08-28 </td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                    <tr>
+                    	<td>陆肆儿</td>
+                        <td>四星</td>
+                        <td class="price">650.6万</td>
+                        <td class="xs-hidden">3</td>
+                        <td class="xs-hidden">1740天</td>
+                        <td>2023-01-08</td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                    <tr>
+                    	<td>慕温颜</td>
+                        <td>一星</td>
+                        <td class="price">181.1万</td>
+                        <td class="xs-hidden">5</td>
+                        <td class="xs-hidden">434天</td>
+                        <td>2023-01-08</td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                    <tr>
+                    	<td>是心动啊</td>
+                        <td>四星</td>
+                        <td class="price">403.92万</td>
+                        <td class="xs-hidden">4</td>
+                        <td class="xs-hidden">892天</td>
+                        <td>2023-01-07</td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                    <tr>
+                    	<td>糖炒栗子</td>
+                        <td>四星</td>
+                        <td class="price">568.83万</td>
+                        <td class="xs-hidden">3</td>
+                        <td class="xs-hidden">1002天</td>
+                        <td>2023-01-08</td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                    <tr>
+                    	<td>九尾神兽 </td>
+                        <td>一星</td>
+                        <td class="price">164.2万</td>
+                        <td class="xs-hidden">2</td>
+                        <td class="xs-hidden">415天</td>
+                        <td>2023-01-08</td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                    <tr>
+                    	<td>兔来割草</td>
+                        <td>二星</td>
+                        <td class="price">269.18万</td>
+                        <td class="xs-hidden">1</td>
+                        <td class="xs-hidden">355天</td>
+                        <td>2022-12-25 </td>
+                        <td><a href="###" class="reserve">关注</a></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                	<td colspan="7"><a href="###" class="more2">加载更多作者...</a></td>
+                </tfoot>
+            </table>  	
+        </div>
+	</div>
+ </div>
+ <footer id="footer">
+	<div class="top sm-hidden">
+		<div class="block left">
+			<h2>合作伙伴</h2>
+			<hr>
+			<ul>
+				<li>七猫免费小说</li>
+				<li>后裔采集器</li>
+				
+			</ul>
+		</div>
+		<div class="block center">
+			<h2>阅读FAQ</h2>
+			<hr>
+			<ul>
+				<li>男生热度榜</li>
+				<li>女生热度榜</li>
+				<li>热度总榜</li>
+				<li>作者热榜</li>
+				
+			</ul>
+		</div>
+		<div class="block right">
+			<h2>联系方式</h2>
+			<hr>
+			<ul>
+				<li>电话：11111111111</li>
+				<li>邮件：111111111@qq.com</li>
+				<li>地址：北京市海淀区中央民族大学</li>
+			</ul>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="version sm-visible">
+		客户端 | 触屏版 | 电脑版
+	</div>
+	<div class="bottom">Copyright &copy;七猫阅读大数据智能分析平台| 京ICP 备120110119 号<span class="sm-hidden">| 经营许可证：L-YC-BK12345</span></div>
+		
+	</footer>
+</body>
+</html>
